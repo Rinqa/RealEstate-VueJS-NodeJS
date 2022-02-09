@@ -1,4 +1,4 @@
-# dardania-real-estate
+# real-estate
 
 ## Project setup
 ```

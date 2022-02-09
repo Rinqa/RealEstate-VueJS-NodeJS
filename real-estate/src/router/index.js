@@ -1,6 +1,11 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import Vue from 'vue'
+import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-
+import BootstrapVue from './router'
+import 'bootstrap/dist/css/bootstrap-vue.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+Vue.use(VueRouter)
+Vue.use(BootstrapVue)
 const routes = [
   {
     path: '/',
@@ -17,8 +22,7 @@ const routes = [
   }
 ]
 
-const router = createRouter({
-  history: createWebHashHistory(),
+const router = new VueRouter({
   routes
 })
 
