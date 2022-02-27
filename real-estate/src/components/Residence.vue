@@ -1,67 +1,53 @@
 <template>
-    <b-container-fluid class="bv-example-row">
-  <b-row style="margin-top:2%">
-  <b-card
+  <b-container-fluid class="bv-example-row">
     
-    title="Card Title"
-    img-src="https://picsum.photos/600/300/?image=25"
-    img-alt="Image"
-    img-top
-    tag="article"
-    style="max-width: 20rem; margin:auto;"
-    class="mb-2"
-  >
-    <b-card-text>
-      Some quick example text to build on the card title and make up the bulk of the card's content.
-    </b-card-text>
+     
+    <b-row style="margin:auto" >
+   <div v-for="item in Residences" v-bind:key="item.name">
 
-    <b-button href="#" variant="primary">Go somewhere</b-button>
-  </b-card>
-  <b-card
-    title="Card Title"
-    img-src="https://picsum.photos/600/300/?image=25"
-    img-alt="Image"
-    img-top
-    tag="article"
-    style="max-width: 20rem; margin:auto;"
-    class="mb-2"
-  >
-    <b-card-text>
-      Some quick example text to build on the card title and make up the bulk of the card's content.
-    </b-card-text>
+      <b-card
+        title="Card Title"
+        img-src=item.Photo
+        img-alt="Image"
+        img-top
+        tag="article"
+        style="max-width: 20rem; margin: 1%"
+        class="mb-2"
+      >
+        <b-card-text>
+          {{item.price}}
+          {{item.bathroom}}
+          {{item.LivingRoom}}
+        </b-card-text>
 
-    <b-button href="#" variant="primary">Go somewhere</b-button>
-  </b-card>
-  <b-card
-    title="Card Title"
-    img-src="https://picsum.photos/600/300/?image=25"
-    img-alt="Image"
-    img-top
-    tag="article"
-    style="max-width: 20rem; margin:auto;"
-    class="mb-2"
-  >
-    <b-card-text>
-      Some quick example text to build on the card title and make up the bulk of the card's content.
-    </b-card-text>
-
-    <b-button href="#" variant="primary">Go somewhere</b-button>
-  </b-card>
-  <b-card
-    title="Card Title"
-    img-src="https://picsum.photos/600/300/?image=25"
-    img-alt="Image"
-    img-top
-    tag="article"
-    style="max-width: 20rem; margin:auto;"
-    class="mb-2"
-  >
-    <b-card-text>
-      Some quick example text to build on the card title and make up the bulk of the card's content.
-    </b-card-text>
-
-    <b-button href="#" variant="primary">Go somewhere</b-button>
-  </b-card> 
-  </b-row>
-    </b-container-fluid>
+        <b-button href="#" variant="primary">Go somewhere</b-button>
+      </b-card>
+    
+   </div>
+  
+   </b-row>
+  </b-container-fluid>
 </template>
+
+<script>
+
+
+export default ({
+   data() {
+    return {
+      
+      Residences: [
+        { Photo: '../assets/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"},
+        { Photo: '../assets/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"},
+        { Photo: '../assets/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"},
+        { Photo: '../assets/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"},
+        { Photo: '../assets/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"},
+        { Photo: '../assets/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"},
+        { Photo: '../assets/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"},
+        { Photo: '../assets/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"},
+        { Photo: '../assets/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"}  
+      ]
+    }
+  },
+})
+</script>
