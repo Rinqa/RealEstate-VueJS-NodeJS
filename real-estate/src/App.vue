@@ -4,6 +4,7 @@
       
       <app-home ></app-home>
       <app-residence></app-residence>
+      <app-properties></app-properties>
   </div>
 </template>
 
@@ -11,11 +12,13 @@
 //import HelloWorld from './components/HelloWorld.vue'
 import Home from './components/Home.vue'
 import Residence from './components/Residence.vue'
+import Properties from './components/Properties.vue'
 export default {
   name: 'App',
   components: {
     'app-home':Home,
     'app-residence':Residence,
+    'app-properties':Properties,
   },
   data:function(){
     return{
