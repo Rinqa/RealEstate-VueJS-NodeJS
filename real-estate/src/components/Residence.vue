@@ -7,7 +7,7 @@
 
       <b-card
         title="Card Title"
-        img-src=item.Photo
+        :img-src=item.Photo
         img-alt="Image"
         img-top
         tag="article"
@@ -26,6 +26,8 @@
    </div>
   
    </b-row>
+  <img src="../../public/Media/logo.png"/>
+
   </b-container-fluid>
 </template>
 
@@ -37,7 +39,7 @@ export default ({
     return {
       
       Residences: [
-        { Photo: '../assets/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"},
+        { Photo: '../../public/Media/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"},
         { Photo: '../assets/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"},
         { Photo: '../assets/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"},
         { Photo: '../assets/logo.png', price: '120m2',bathroom:"4",LivingRoom:"2"},
