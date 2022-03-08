@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="top" style="margin:auto;">
-      <label><h3>Residence For Rent</h3></label>
+      <label><h3>Residence For Sale</h3></label>
     </div>
     <table class="table bg-light" id="myTable">
         <thead>

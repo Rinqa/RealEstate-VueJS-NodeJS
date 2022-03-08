@@ -25,9 +25,19 @@ const routes = [
         component: () => import("../components/RentResidence.vue")
     },
     {
+        path:"/SellResidence",
+        name:"SellResidence",
+        component:()=>import("../components/SellResidence.vue")
+    
+    },
+    {
         path: "/AddResidence",
         name: "addResidence",
         component: () => import("../components/AddResidence.vue")
+    },{
+        path:"/EditResidence/1",
+        name:"Edit",
+        component:() => import("../components/EditResidence.vue")
     },
     {
         path: "/Office",
@@ -38,6 +48,11 @@ const routes = [
         path:"/AddOffice",
         name:"AddOffice",
         component:()=>import("../components/AddOffice.vue")
+    },
+    {
+        path:"/EditOffice",
+        name:"EditOffice",
+        component:()=>import("../components/EditOffice.vue")
     },
     {
         path:"/AgentDetails/1",

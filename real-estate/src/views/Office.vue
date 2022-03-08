@@ -18,6 +18,7 @@
             <b-card
               :title="item.price"
               :img-src="item.Photo"
+              :sub-title="item.Squaremeter"
               img-alt="Image"
               img-top
               tag="article"
@@ -64,13 +65,12 @@ export default {
   data() {
     return {
        Office: [
-        { Photo: require('../assets/office.png'), city:"Prishtina",location:"Magjistralja Prishtine-ferizaj",price: '120 $/m2',Agent:"Albin Sylemani"},
-        { Photo: require('../assets/office.png'), city:"Prishtina",location:"Magjistralja Prishtine-ferizaj",price: '120 $/m2',Agent:"Albin Sylemani"},
-        { Photo: require('../assets/office.png'), city:"Prishtina",location:"Magjistralja Prishtine-ferizaj",price: '120 $/m2',Agent:"Albin Sylemani"},
-        { Photo: require('../assets/office.png'), city:"Prishtina",location:"Magjistralja Prishtine-ferizaj",price: '120 $/m2',Agent:"Albin Sylemani"},
-        { Photo: require('../assets/office.png'), city:"Prishtina",location:"Magjistralja Prishtine-ferizaj",price: '120 $/m2',Agent:"Albin Sylemani"},
-        { Photo: require('../assets/office.png'), city:"Prishtina",location:"Magjistralja Prishtine-ferizaj",price: '120 $/m2',Agent:"Albin Sylemani"},
-        { Photo: require('../assets/office.png'), city:"Prishtina",location:"Magjistralja Prishtine-ferizaj",price: '120 $/m2',Agent:"Albin Sylemani"},
+        { Photo: require('../assets/office.png'), city:"Prishtina",location:"Magjistralja Prishtine-ferizaj",price: '120 $/m²',Squaremeter:"120m²",Agent:"Albin Sylemani"},
+        { Photo: require('../assets/office.png'), city:"Prishtina",location:"Magjistralja Prishtine-ferizaj",price: '120 $/m²',Squaremeter:"120m²",Agent:"Albin Sylemani"},
+        { Photo: require('../assets/office.png'), city:"Prishtina",location:"Magjistralja Prishtine-ferizaj",price: '120 $/m²',Squaremeter:"120m²",Agent:"Albin Sylemani"},
+        { Photo: require('../assets/office.png'), city:"Prishtina",location:"Magjistralja Prishtine-ferizaj",price: '120 $/m²',Squaremeter:"120m²",Agent:"Albin Sylemani"},
+        { Photo: require('../assets/office.png'), city:"Prishtina",location:"Magjistralja Prishtine-ferizaj",price: '120 $/m²',Squaremeter:"120m²",Agent:"Albin Sylemani"},
+        { Photo: require('../assets/office.png'), city:"Prishtina",location:"Magjistralja Prishtine-ferizaj",price: '120 $/m²',Squaremeter:"120m²",Agent:"Albin Sylemani"},
       ]
     };
   },

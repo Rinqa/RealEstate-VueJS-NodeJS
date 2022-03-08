@@ -5,7 +5,7 @@
         <router-link class="btn btn-warning float-left" to="/RentResidence">
           Rent
         </router-link>
-        <router-link class="btn btn-warning float-left" to="/Resdetails/1">
+        <router-link class="btn btn-warning float-left" to="/SellResidence">
           Sell
         </router-link>
          <router-link class="btn btn-warning float-right" to="/AddResidence">
