@@ -1,6 +1,8 @@
 <template>
-  <div>
-    
+  <div class="container">
+    <!-- <div class="top" style="margin:auto;">
+      <input type="text"  placeholder="test" class="float-left">
+    </div> -->
     <table class="table bg-light" id="myTable">
         <thead>
             <tr>
@@ -32,9 +34,51 @@ export default {
   data() {
     return {
       Residences: [
-        { Photo: require("../assets/Properties.png"),price: "120",Squaremeter: "400",City: "Prishtina",Location:"Stbekim femiu" },
-        { Photo: require("../assets/Properties.png"),price: "340",Squaremeter: "600",City: "Prishtina",Location:"Stbekim femiu" },
-        { Photo: require("../assets/Properties.png"),price: "200",Squaremeter: "800sss",City: "Prishtina",Location:"Stbekim femiu" },
+        {
+          Photo: require("../assets/Properties.png"),
+          price: "120€",
+          Squaremeter: "500",
+          bathroom: "4",
+          LivingRoom: "2",
+          GardenSpace: "1500",
+          Agent: "Rinor Biçku",
+          City: "Prishtina",
+          Location: "St bekim femiu",
+        },
+        {
+          Photo: require("../assets/Properties.png"),
+          price: "120€",
+          Squaremeter: "500",
+          bathroom: "4",
+          LivingRoom: "2",
+          GardenSpace: "1500",
+          Agent: "Rinor Biçku",
+          City: "Prishtina",
+          Location: "St bekim femiu",
+        },
+        {
+          Photo: require("../assets/Properties.png"),
+          price: "120€",
+          Squaremeter: "500",
+          bathroom: "4",
+          LivingRoom: "2",
+          GardenSpace: "1500",
+          Agent: "Rinor Biçku",
+          City: "Prishtina",
+          Location: "St bekim femiu",
+        },
+        {
+          Photo: require("../assets/Properties.png"),
+          price: "120€",
+          Squaremeter: "500",
+          bathroom: "4",
+          LivingRoom: "2",
+          GardenSpace: "1500",
+          Agent: "Rinor Biçku",
+          City: "Prishtina",
+          Location: "St bekim femiu",
+        },
+        
       ],
     };
   },

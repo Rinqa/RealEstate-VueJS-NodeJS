@@ -3,11 +3,16 @@
     
      
     <b-row style="margin:auto" >
+       <div class="col-md-12">
+       
+         <router-link class="btn btn-warning float-right" to="/AddProperties">
+          Add
+        </router-link>
+      </div>
    <div v-for="item in Properties" v-bind:key="item.name">
 
       <b-card
-        :title="item.City"
-        :sub-title="item.Location"
+        :title="item.Price"
         :img-src="item.Photo"
         img-alt="Image"
         img-top
@@ -17,10 +22,8 @@
       >
         <b-card-text>
           
-          {{item.price}}
-          {{item.bathroom}}
-          {{item.LivingRoom}}
-          {{item.Agents}}
+          <i class="fa fa-map-pin" aria-hidden="true"></i> {{item.City}}<br>
+          <i class="fa fa-map-marker  "></i> {{item.Location}}
         </b-card-text>
 
         <b-button href="#" variant="primary">Details</b-button>
@@ -40,9 +43,7 @@ export default ({
     return {
       
       Properties: [
-        { Photo: require('../assets/Properties.jpg'),price: '120m2',City:"Prishtina",Location:"Gjilan",bathroom:"4",LivingRoom:"2",Agents:"Rinor Biqku"},
-         { Photo: require('../assets/Properties.jpg'),price: '120m2',City:"Prishtina",Location:"Gjilan",bathroom:"4",LivingRoom:"2"},
-         { Photo: require('../assets/Properties.jpg'),price: '120m2',City:"Prishtina",Location:"Gjilan",bathroom:"4",LivingRoom:"2"},
+        { Photo: require('../assets/Properties.jpg'),Price: '120 €/m2',City:"Prishtina",Location:"Zija shemsiu",Agents:"Rinor Biqku"},
       ]
     }
   },
