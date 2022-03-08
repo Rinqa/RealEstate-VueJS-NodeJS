@@ -39,7 +39,16 @@ const routes = [
         name:"AddOffice",
         component:()=>import("../components/AddOffice.vue")
     },
-
+    {
+        path:"/AgentDetails/1",
+        name:"AgentDetails",
+        component:()=>import("../components/AgentDetails.vue")
+    },
+    {
+        path:"/Agents",
+        name:"Agents",
+        component:()=>import("../views/Agents.vue")
+    },
     {
         path: "/Properties",
         name: "Properties",
