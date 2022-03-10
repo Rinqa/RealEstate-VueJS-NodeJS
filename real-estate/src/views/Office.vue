@@ -38,7 +38,7 @@
 
               <router-link
                 class="btn btn-outline-warning btn-block"
-                to="/Office/1"
+                to="/Office/Details/1"
                 >Details</router-link
               >
             </b-card>

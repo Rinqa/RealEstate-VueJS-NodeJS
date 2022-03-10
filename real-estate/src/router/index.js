@@ -90,7 +90,7 @@ const routes = [
         component: () => import("../components/PropertiesDetail.vue")
     },
     {
-        path: "/Office/1",
+        path: "/Office/Details/1",
         name: "Office Details",
         component: () => import("../components/OfficeDetail.vue")
     }
