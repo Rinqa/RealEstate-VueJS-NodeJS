@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11772.753146868687!2d21.46337265!3d42.466284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354f3db96b3fb6d%3A0xdb1a8e8d37da3019!2sAgmia%20Center!5e0!3m2!1sen!2s!4v1646156805530!5m2!1sen!2s"
       width="100%"
@@ -63,22 +63,7 @@
                 Shtëpia me sipërfaqe prej 227m² ndodhet në Lagjen Hana. Është në
                 fazën finale të përfundimit dhe gjendet në një lokacion të qetë
                 me pamje të hapur dhe me ndriçim natyral. Gjithashtu ka sistem
-                të ngrohjes me energji elektrike. Shtëpia ka këtë renditje: Kati
-                i parë: |1 Sallon me kuzhinë |1 Dhomë gjumi |1 Banjo Kati i
-                dytë: |3 Dhoma të gjumit (njëra prej tyre është master bedroom)
-                |1 Banjo |2 BallkoneShtëpia me sipërfaqe prej 227m² ndodhet në
-                Lagjen Hana. Është në fazën finale të përfundimit dhe gjendet në
-                një lokacion të qetë me pamje të hapur dhe me ndriçim natyral.
-                Gjithashtu ka sistem të ngrohjes me energji elektrike. Shtëpia
-                ka këtë renditje: Kati i parë: |1 Sallon me kuzhinë |1 Dhomë
-                gjumi |1 Banjo Kati i dytë: |3 Dhoma të gjumit (njëra prej tyre
-                është master bedroom) |1 Banjo |2 BallkoneShtëpia me sipërfaqe
-                prej 227m² ndodhet në Lagjen Hana. Është në fazën finale të
-                përfundimit dhe gjendet në një lokacion të qetë me pamje të
-                hapur dhe me ndriçim natyral. Gjithashtu ka sistem të ngrohjes
-                me energji elektrike. Shtëpia ka këtë renditje: Kati i parë: |1
-                Sallon me kuzhinë |1 Dhomë gjumi |1 Banjo Kati i dytë: |3 Dhoma
-                të gjumit (njëra prej tyre është master bedroom) |1 Banjo |2
+                të ngrohjes me energji elektrike.
                 Ballkone
               </td>
             </tr>

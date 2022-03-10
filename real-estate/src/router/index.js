@@ -75,14 +75,14 @@ const routes = [
         component:()=> import ("../components/AddProperites.vue")
     },
     {
-        path: "/Agents",
-        name: "Agents",
-        component: () => import("../views/Agents.vue")
-    },
-    {
         path:"/AddAgent",
         name:"AddAgent",
         component:()=>import("../components/AddAgent.vue")
+    },
+    {
+        path:"/EditAgent",
+        name:"EditAgent",
+        component:() => import("../components/EditAgent.vue")
     },
     {
         path: "/PropDetails",
@@ -90,7 +90,7 @@ const routes = [
         component: () => import("../components/PropertiesDetail.vue")
     },
     {
-        path: "Office/1",
+        path: "/Office/1",
         name: "Office Details",
         component: () => import("../components/OfficeDetail.vue")
     }
