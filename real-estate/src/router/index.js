@@ -60,6 +60,11 @@ const routes = [
         component:()=>import("../components/RentOffice.vue")
     },
     {
+        path:"/SellOffice",
+        name:"SellOffice",
+        component:()=>import("../components/SellOffice.vue")
+    },
+    {
         path:"/AgentDetails/1",
         name:"AgentDetails",
         component:()=>import("../components/AgentDetails.vue")

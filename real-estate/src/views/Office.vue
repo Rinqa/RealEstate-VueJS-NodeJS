@@ -5,7 +5,7 @@
         <router-link class="btn btn-warning float-left" to="/RentOffice">
           Rent
         </router-link>
-        <router-link class="btn btn-warning float-left" to="/Resdetails/1">
+        <router-link class="btn btn-warning float-left" to="/SellOffice">
           Sell
         </router-link>
          <router-link class="btn btn-warning float-right" to="/AddOffice">
