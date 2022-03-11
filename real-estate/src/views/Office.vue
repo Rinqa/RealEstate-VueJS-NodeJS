@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <router-link class="btn btn-warning float-left" to="/RentResidence">
+        <router-link class="btn btn-warning float-left" to="/RentOffice">
           Rent
         </router-link>
         <router-link class="btn btn-warning float-left" to="/Resdetails/1">

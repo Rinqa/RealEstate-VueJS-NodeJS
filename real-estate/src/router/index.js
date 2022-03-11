@@ -55,6 +55,11 @@ const routes = [
         component:()=>import("../components/EditOffice.vue")
     },
     {
+        path:"/RentOffice",
+        name:"RentOffice",
+        component:()=>import("../components/RentOffice.vue")
+    },
+    {
         path:"/AgentDetails/1",
         name:"AgentDetails",
         component:()=>import("../components/AgentDetails.vue")
