@@ -100,6 +100,11 @@ const routes = [
         component: () => import("../components/PropertiesDetail.vue")
     },
     {
+        path:"/EditProperties",
+        name:"EditProperties",
+        component:() => import("../components/EditProperties.vue")
+    },
+    {
         path: "/Office/Details/1",
         name: "Office Details",
         component: () => import("../components/OfficeDetail.vue")
