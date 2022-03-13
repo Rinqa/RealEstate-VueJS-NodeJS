@@ -35,6 +35,11 @@
               Agents
             </router-link>
           </b-nav-item>
+           <b-nav-item style="margin-left: 1000px;" >
+            <router-link to="/register" class="nav-link">
+              Register
+            </router-link>
+          </b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->

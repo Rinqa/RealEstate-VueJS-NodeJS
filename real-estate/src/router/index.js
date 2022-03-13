@@ -40,6 +40,11 @@ const routes = [
         component:() => import("../components/EditResidence.vue")
     },
     {
+        path: "/register",
+        name: "Register",
+        component:() => import("../views/Register.vue"),
+    },
+    {
         path: "/Office",
         name: "Office",
         component: () => import("../views/Office.vue"),
